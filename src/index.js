@@ -7,6 +7,7 @@ import "jquery/dist/jquery";
 import "popper.js/dist/umd/popper";
 import "bootstrap/dist/js/bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles/main.scss";
 ReactDOM.render(
   <React.StrictMode>
     <App />
