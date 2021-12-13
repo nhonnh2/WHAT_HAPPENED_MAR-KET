@@ -1,4 +1,4 @@
-@mixin styleText($font_family, $font_size, $font_weight, $font_stretch, $font_style, $line_height, $letter_spacing, $texgt_align, $color) {
+@mixin styleText($font_family, $font_size, $font_weight, $font_stretch, $font_style, $line_height, $letter_spacing, $texgt_align, $color:#111) {
     font-family: $font_family;
     font-size: $font_size;
     font-weight: $font_weight;
@@ -7,7 +7,7 @@
     line-height: $line_height;
     letter-spacing: $letter_spacing;
     text-align: $texgt_align;
-    color: var($color);
+    color: $color;
 }
 
 @mixin mediaQueryMax($screen) {
