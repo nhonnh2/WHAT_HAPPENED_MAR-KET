@@ -1,0 +1,23 @@
+@mixin styleText($font_family, $font_size, $font_weight, $font_stretch, $font_style, $line_height, $letter_spacing, $texgt_align, $color) {
+    font-family: $font_family;
+    font-size: $font_size;
+    font-weight: $font_weight;
+    font-stretch: $font_stretch;
+    font-style: $font_style;
+    line-height: $line_height;
+    letter-spacing: $letter_spacing;
+    text-align: $texgt_align;
+    color: var($color);
+}
+
+@mixin mediaQueryMax($screen) {
+    @if map-has-key($map: $breakpoints, $key: $screen) {
+        $value: map-get( $map: $breakpoints, $key: $screen);
+        @media screen and (max-width: $value) {
+            @content;
+        }
+    }
+    @else {
+        @warn "`#($screen)` khong ton tai";
+    }
+}

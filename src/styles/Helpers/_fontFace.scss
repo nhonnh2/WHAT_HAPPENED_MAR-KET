@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Montserrat;
+    src: local(Montserrat-Regular), url(/path/to/Montserrat-Regular.woff2) format("woff2"), url(/path/to/Montserrat-Regular.woff) format("woff"), url(/path/to/Montserrat-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: local(Montserrat-SemiBold), url(/path/to/Montserrat-SemiBold.woff2) format("woff2"), url(/path/to/Montserrat-SemiBold.woff) format("woff"), url(/path/to/Montserrat-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: local(Montserrat-Bold), url(/path/to/Montserrat-Bold.woff2) format("woff2"), url(/path/to/Montserrat-Bold.woff) format("woff"), url(/path/to/Montserrat-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: local(Montserrat-ExtraBoldItalic), url(/path/to/Montserrat-ExtraBoldItalic.woff2) format("woff2"), url(/path/to/Montserrat-ExtraBoldItalic.woff) format("woff"), url(/path/to/Montserrat-ExtraBoldItalic.ttf) format("truetype");
+    font-weight: 800;
+    font-style: italic;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: local(Montserrat-ExtraBold), url(/path/to/Montserrat-ExtraBold.woff2) format("woff2"), url(/path/to/Montserrat-ExtraBold.woff) format("woff"), url(/path/to/Montserrat-ExtraBold.ttf) format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: NotoSansCJKkr;
+    src: local(NotoSansCJKkr-DemiLight), url(/path/to/NotoSansCJKkr-DemiLight.woff2) format("woff2"), url(/path/to/NotoSansCJKkr-DemiLight.woff) format("woff"), url(/path/to/NotoSansCJKkr-DemiLight.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: NotoSansCJKkr;
+    src: local(NotoSansCJKkr-Light), url(/path/to/NotoSansCJKkr-Light.woff2) format("woff2"), url(/path/to/NotoSansCJKkr-Light.woff) format("woff"), url(/path/to/NotoSansCJKkr-Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: NotoSansCJKkr;
+    src: local(NotoSansCJKkr-Regular), url(/path/to/NotoSansCJKkr-Regular.woff2) format("woff2"), url(/path/to/NotoSansCJKkr-Regular.woff) format("woff"), url(/path/to/NotoSansCJKkr-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: NotoSansCJKkr;
+    src: local(NotoSansCJKkr-Medium), url(/path/to/NotoSansCJKkr-Medium.woff2) format("woff2"), url(/path/to/NotoSansCJKkr-Medium.woff) format("woff"), url(/path/to/NotoSansCJKkr-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}

@@ -1,0 +1,103 @@
+.Text-Style-18 {
+    @include styleText( Montserrat, 171.5px, 800, normal, normal, 1.03, normal, center, #111)
+}
+
+.Text-Style-13 {
+    @include styleText( Montserrat, 171.5px, 800, normal, normal, 1.03, normal, center, $white)
+}
+
+.Text-Style-4 {
+    @include styleText( NotoSansCJKkr, 64px, normal, normal, normal, 0.75, normal, left, #111);
+}
+
+.Text-Style-25 {
+    @include styleText( Montserrat, 55px, 800, normal, normal, 1.04, normal, center, $dark-brown)
+}
+
+.Text-Style-19 {
+    @include styleText( Montserrat, 50px, 800, normal, normal, 1.2, 5px, left, $white)
+}
+
+.Text-Style-12 {
+    @include styleText( Montserrat, 50px, 800, normal, italic, 0.54, normal, center, #111)
+}
+
+.Text-Style-5 {
+    @include styleText( Montserrat, 50px, bold, normal, normal, 1.2, 5px, center, $bright-orange)
+}
+
+.Text-Style-3 {
+    @include styleText( Montserrat, 50px, bold, normal, normal, 1.2, 5px, center, $bright-orange Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $sun-yellow)
+}
+
+.Text-Style-23 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown)
+}
+
+.Text-Style-2 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three)
+}
+
+.Text-Style-24 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white)
+}
+
+.Text-Style-17 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown)
+}
+
+.Text-Style-22 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three)
+}
+
+.Text-Style-14 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111)
+}
+
+.Text-Style-20 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111 Montserrat, 20px, 800, normal, normal, 1.25, normal, left)
+}
+
+.Text-Style {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111 Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, 800, normal, normal, 1.25, normal, left)
+}
+
+.Text-Style-6 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111 Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, normal, normal, normal, 1.75, normal, left, $white)
+}
+
+.Text-Style-16 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111 Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, normal, normal, normal, 1.75, normal, left, $white Montserrat, 20px, normal, normal, normal, 1.6, normal, center, $bright-orange)
+}
+
+.Text-Style-21 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111 Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, normal, normal, normal, 1.75, normal, left, $white Montserrat, 20px, normal, normal, normal, 1.6, normal, center, $bright-orange Montserrat, 18px, 600, normal, normal, 1.94, normal, left, $black-three)
+}
+
+.Text-Style-7 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111 Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, normal, normal, normal, 1.75, normal, left, $white Montserrat, 20px, normal, normal, normal, 1.6, normal, center, $bright-orange Montserrat, 18px, 600, normal, normal, 1.94, normal, left, $black-three NotoSansCJKkr, 17.5px, 300, normal, normal, 1.63, normal, right, #abacaf)
+}
+
+.Text-Style-8 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111 Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, normal, normal, normal, 1.75, normal, left, $white Montserrat, 20px, normal, normal, normal, 1.6, normal, center, $bright-orange Montserrat, 18px, 600, normal, normal, 1.94, normal, left, $black-three NotoSansCJKkr, 17.5px, 300, normal, normal, 1.63, normal, right, #abacaf NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, left, $black-three)
+}
+
+.Text-Style-9 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111 Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, normal, normal, normal, 1.75, normal, left, $white Montserrat, 20px, normal, normal, normal, 1.6, normal, center, $bright-orange Montserrat, 18px, 600, normal, normal, 1.94, normal, left, $black-three NotoSansCJKkr, 17.5px, 300, normal, normal, 1.63, normal, right, #abacaf NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, left, $black-three NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, center, $dark-brown)
+}
+
+.Text-Style-10 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111 Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, normal, normal, normal, 1.75, normal, left, $white Montserrat, 20px, normal, normal, normal, 1.6, normal, center, $bright-orange Montserrat, 18px, 600, normal, normal, 1.94, normal, left, $black-three NotoSansCJKkr, 17.5px, 300, normal, normal, 1.63, normal, right, #abacaf NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, left, $black-three NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, center, $dark-brown NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, center, $sun-yellow)
+}
+
+.Text-Style-15 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111 Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, normal, normal, normal, 1.75, normal, left, $white Montserrat, 20px, normal, normal, normal, 1.6, normal, center, $bright-orange Montserrat, 18px, 600, normal, normal, 1.94, normal, left, $black-three NotoSansCJKkr, 17.5px, 300, normal, normal, 1.63, normal, right, #abacaf NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, left, $black-three NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, center, $dark-brown NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, center, $sun-yellow Montserrat, 14px, bold, normal, normal, 2.14, normal, center, #111)
+}
+
+.Text-Style-11 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111 Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, normal, normal, normal, 1.75, normal, left, $white Montserrat, 20px, normal, normal, normal, 1.6, normal, center, $bright-orange Montserrat, 18px, 600, normal, normal, 1.94, normal, left, $black-three NotoSansCJKkr, 17.5px, 300, normal, normal, 1.63, normal, right, #abacaf NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, left, $black-three NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, center, $dark-brown NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, center, $sun-yellow Montserrat, 14px, bold, normal, normal, 2.14, normal, center, #111 Montserrat, 14px, normal, normal, normal, 2.14, normal, center, $white)
+}
+
+.Text-Style-26 {
+    @include styleText( Montserrat, 45px, bold, normal, normal, 1.33, 4.5px, left, $dark-brown NotoSansCJKkr, 35px, 500, normal, normal, 0.86, normal, left, $black-three Montserrat, 30px, 800, normal, normal, 1.67, normal, left, $white Montserrat, 30px, 800, normal, normal, 0.83, normal, left, $dark-brown Montserrat, 25px, 800, normal, normal, 2.4, normal, left, $black-three Montserrat, 20px, 800, normal, normal, 1.35, normal, center, #111 Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, 800, normal, normal, 1.25, normal, left Montserrat, 20px, normal, normal, normal, 1.75, normal, left, $white Montserrat, 20px, normal, normal, normal, 1.6, normal, center, $bright-orange Montserrat, 18px, 600, normal, normal, 1.94, normal, left, $black-three NotoSansCJKkr, 17.5px, 300, normal, normal, 1.63, normal, right, #abacaf NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, left, $black-three NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, center, $dark-brown NotoSansCJKkr, 16px, 300, normal, normal, 1.88, normal, center, $sun-yellow Montserrat, 14px, bold, normal, normal, 2.14, normal, center, #111 Montserrat, 14px, normal, normal, normal, 2.14, normal, center, $white NotoSansCJKkr, 14px, 300, normal, normal, 2.14, normal, left, #111)
+}
