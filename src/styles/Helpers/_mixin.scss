@@ -1,4 +1,4 @@
-@mixin styleText($font_family, $font_size, $font_weight, $font_stretch, $font_style, $line_height, $letter_spacing, $texgt_align, $color:#111) {
+@mixin styleText($font_family, $font_size, $font_weight, $font_stretch, $font_style, $line_height, $letter_spacing, $texgt_align, $color: #222222) {
     font-family: $font_family;
     font-size: $font_size;
     font-weight: $font_weight;
@@ -14,6 +14,18 @@
     @if map-has-key($map: $breakpoints, $key: $screen) {
         $value: map-get( $map: $breakpoints, $key: $screen);
         @media screen and (max-width: $value) {
+            @content;
+        }
+    }
+    @else {
+        @warn "`#($screen)` khong ton tai";
+    }
+}
+
+@mixin mediaQueryMin($screen) {
+    @if map-has-key($map: $breakpoints, $key: $screen) {
+        $value: map-get( $map: $breakpoints, $key: $screen);
+        @media screen and (min-width: $value) {
             @content;
         }
     }
