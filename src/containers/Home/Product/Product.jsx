@@ -1,6 +1,29 @@
 import React from "react";
-
+import { listProduct } from "../../../data/product";
 export default function Product() {
+  const renderListProduct = () => {
+    return listProduct.map((product, idx) => (
+      <div className="product__item" key={idx}>
+        <img
+          src={
+            require(`../../../assets/images/Product/${product.imgProduct}`)
+              .default
+          }
+          alt="loading image"
+        />
+
+        <p className="Text-Style-21">{product.title}</p>
+        <div className="product__itemBottom">
+          <p className="Text-Style=21">{product.won} won</p>
+          <div className="product__like">
+            <span>
+              <i class="fa fa-heart"> </i> {product.like}
+            </span>
+          </div>
+        </div>
+      </div>
+    ));
+  };
   return (
     <div className="product">
       <div className="bestProduct">
@@ -101,6 +124,9 @@ export default function Product() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="listProduct">
+        <div className="container">{renderListProduct()}</div>
       </div>
     </div>
   );

@@ -1,3 +1,6 @@
+// @import "../../../styles/Helpers/variable";
+// @import "../../../styles/Helpers/mixin";
+// @import "../../../styles/Components/container";
 .product {
     .bestProduct {
         background-image: url('../../../assets/images/Home/bes-bg.png');
@@ -34,7 +37,7 @@
                         }
                     }
                     .goProduct {
-                        border: solid 3px $dark-maroon;
+                        border: 3px solid $dark-maroon;
                         padding: 7px 8px 6px 27px;
                         background-color: $white;
                         width: 80%;
@@ -66,6 +69,30 @@
             }
         }
     }
+    .listProduct {
+        margin-top: 100px;
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .product__item {
+                width: 23%;
+                cursor: pointer;
+                img {
+                    width: 100%;
+                }
+                .product__itemBottom {
+                    display: flex;
+                    justify-content: space-between;
+                    .product__like {
+                        i {
+                            color: $pumpkin-orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @include mediaQueryMax('large') {
@@ -88,6 +115,17 @@
                                 top: 0px
                             }
                         }
+                    }
+                }
+            }
+        }
+        .listProduct {
+            .container {
+                .product__item {
+                    width: 100%;
+                    margin-bottom: 50px;
+                    img {
+                        width: 100%;
                     }
                 }
             }

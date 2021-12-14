@@ -1,22 +1,24 @@
 header {
     .header__container {
-        .navbar-nav {
-            height: 80px;
-            width: 100%;
-            justify-content: flex-end;
-            text-transform: uppercase;
-            .nav-item {
-                margin: 0 $spacing-m;
-                .nav-link {
-                    line-height: 65px;
+        nav {
+            height: 85px;
+            .navbar-nav {
+                width: 100%;
+                justify-content: flex-end;
+                text-transform: uppercase;
+                .nav-item {
+                    margin: 0 $spacing-m;
+                    .nav-link {
+                        line-height: 65px;
+                    }
                 }
-            }
-            .Rectangle-662 {
-                display: none;
-                width: 1px;
-                height: 23px;
-                margin-top: 28px;
-                background-color: $pinkish-grey-two;
+                .Rectangle-662 {
+                    display: none;
+                    width: 1px;
+                    height: 23px;
+                    margin-top: 28px;
+                    background-color: $pinkish-grey-two;
+                }
             }
         }
     }
@@ -25,7 +27,7 @@ header {
 @include mediaQueryMax('large') {
     header {
         .header__container {
-            .navbar-nav {
+            nav {
                 height: auto;
             }
         }
