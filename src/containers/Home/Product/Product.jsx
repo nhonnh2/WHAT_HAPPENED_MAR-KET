@@ -1,4 +1,5 @@
 import React from "react";
+import BtnSeeMore from "../../../components/Buttons/BtnSeeMore/BtnSeeMore";
 import { listProduct } from "../../../data/product";
 export default function Product() {
   const renderListProduct = () => {
@@ -127,6 +128,9 @@ export default function Product() {
       </div>
       <div className="listProduct">
         <div className="container">{renderListProduct()}</div>
+        <div class="mx-auto mt-5" style={{ width: "fit-content" }}>
+          <BtnSeeMore />
+        </div>
       </div>
     </div>
   );
