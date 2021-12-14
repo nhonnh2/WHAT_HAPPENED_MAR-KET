@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import Product from "./Product/Product";
 import Question from "./Introduction/Introduction";
 import BrandStory from "./BrandStory/BrandStory";
+import Issue from "./Issue/Issue";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Question />
       <Product />
       <BrandStory />
+      <Issue />
     </>
   );
 }
