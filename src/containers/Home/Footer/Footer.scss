@@ -1,0 +1,84 @@
+footer {
+    margin-top: 100px;
+    .footer__container {
+        min-width: 85%;
+        h4 {
+            text-align: left;
+        }
+        ul {
+            list-style: none;
+            li {
+                a {
+                    display: block;
+                    font-family: NotoSansCJKkr;
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 2.14;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #111;
+                    &:hover {
+                        text-decoration: none;
+                        color: $clear-blue;
+                    }
+                }
+            }
+        }
+        .footer__left {
+            .footer__corp {
+                width: 80%;
+                font-family: NotoSansCJKkr;
+                font-size: 14px;
+                font-weight: 300;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.71;
+                letter-spacing: normal;
+                text-align: left;
+                margin-top: 50px;
+                color: $greyish;
+            }
+        }
+        .footer__rightTop {
+            .row {
+                justify-content: space-around;
+            }
+            .footer__social {
+                margin-top: 90px;
+                margin-left: 65%;
+            }
+        }
+    }
+}
+
+@include mediaQueryMax('large') {
+    footer {
+        .footer__container {
+            h4 {
+                text-align: center;
+            }
+            ul {
+                li {
+                    a {
+                        text-align: center;
+                    }
+                }
+            }
+            .footer__left {
+                .footer__corp {
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+            .footer__rightTop {
+                .footer__social {
+                    margin-top: 50px;
+                    margin-left: 0px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
