@@ -5,6 +5,7 @@ import Product from "./Product/Product";
 import Question from "./Introduction/Introduction";
 import BrandStory from "./BrandStory/BrandStory";
 import Issue from "./Issue/Issue";
+import SeeMore from "./SeeMore/SeeMore";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Product />
       <BrandStory />
       <Issue />
+      <SeeMore />
     </>
   );
 }

@@ -4,23 +4,23 @@ import BtnSeeMore from "../../../components/Buttons/BtnSeeMore/BtnSeeMore";
 export default function Issue() {
   return (
     <div className="issue">
-      <div className="issue__bg">
-        <img
-          className="news_obj_02 d-md-block"
-          src={
-            require("../../../assets/images/Home/news-object-02.png").default
-          }
-          alt="loading image"
-        />
-        <img
-          className="news_obj_03 d-md-block"
-          src={
-            require("../../../assets/images/Home/news-object-03.png").default
-          }
-          alt="loading image"
-        />
-      </div>
       <div className="issue__container">
+        <div className="issue__bg">
+          <img
+            className="news_obj_02 d-md-block"
+            src={
+              require("../../../assets/images/Home/news-object-02.png").default
+            }
+            alt="loading image"
+          />
+          <img
+            className="news_obj_03 d-md-block"
+            src={
+              require("../../../assets/images/Home/news-object-03.png").default
+            }
+            alt="loading image"
+          />
+        </div>
         <div className="issue__seeMore">
           <h2 className="Text-Style-23 text-uppercase text-center">
             Happened’s issue
